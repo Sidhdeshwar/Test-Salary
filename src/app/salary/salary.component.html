@@ -1,0 +1,73 @@
+
+    <div class="container py-4">
+        <div id="step2" class="was-validated d-block">
+            <div class="py-4 px-3 mb-3 border-bottom d-flex justify-content-between">
+                <div class="d-flex justify-content-start align-items-center align-content-center">
+                    <div class="bg-success p-1 rounded-circle border border-success text-white text-center" style="height: 32px; width: 32px;">1</div>
+                    <span class="mx-2 text-success fw-bold">Basic Information</span>
+                    <div class="bg-success me-2" style="height: 2px; width: 150px;"></div>
+                    <div class="bg-primary p-1 rounded-circle border border-primary text-white text-center" style="height: 32px; width: 32px;">2</div>
+                    <span class="mx-2">Salary Breakup</span>
+                </div>
+                <img src="./Salary_files/logo.png" width="200" alt="">
+            </div>
+            <div class="p-3">
+                <div class="d-flex flex-wrap justify-content-start">
+                    <!-- & IMP -->
+                    <div class="card m-2">
+                        <div class="card-body pt-4">
+                            <select class="form-select">
+                                <option value="">Select Type</option>
+                                <option value="Basic Salary" selected="">Basic Salary</option>
+                                <option value="House Rent Allowance">House Rent Allowance</option>
+                                <option value="Medical Allowance (max 12000)">Medical Allowance (max 12000)</option>
+                                <option value="Convenience Allowance">Convenience Allowance</option>
+                                <option value="Skill Allowance">Skill Allowance</option>
+                                <option value="Other Allowance">Other Allowance</option>
+                            </select>
+                            <div class="form-group pt-4">
+                                <div class="text-center">60%</div>
+                                <input type="range" class="form-range" id="customRange1">
+                                <h4 class="text-center mt-3">
+                                    <span>&#8377;</span>
+                                    0
+                                </h4>
+                            </div>
+
+                            <div class="text-center py-3">
+                                <a href="https://ngminds.com/employee-enrollment-wizard.html#" class="text-danger">Remove Item</a>
+                            </div>
+                        </div>
+                    </div>
+    <!-- & IMP -->
+                    <div class="card m-2">
+                        <div class="card-body d-flex align-items-center">
+                            <div class="p-4 text-center">
+                                Remaining Amount to be classified
+                                <h4 class="text-center mt-4">
+                                    <span>&#8377;</span>
+                                    2000
+                                </h4>
+                                <div class="p-2">
+                                    <a href="https://ngminds.com/employee-enrollment-wizard.html#" class="text-success">Add New Item</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card m-2">
+                        <div class="card-body d-flex flex-wrap align-items-center">
+                            <h5 class="p-4 m-0 text-center lh-lg">
+                                Great! <br>
+                                <small>Total gross amount classified</small>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="p-3 mt-4">
+                <button type="button" onclick="step1()" class="btn btn-secondary me-2">Previous</button>
+                <button type="button" class="btn btn-success">Finish</button>
+            </div>
+        </div>
+
+    </div>

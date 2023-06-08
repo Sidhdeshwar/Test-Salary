@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'object-by-class';
+
+  sub:string [] = ['Marathi', 'Hindi', "English", "Mathematics"];
+  
+
 }
